@@ -80,3 +80,29 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
+/* Disable the native scrollbar */
+body {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE 10+ */
+  }
+  
+  /* Styles pour une scrollbar invisible */
+/* Pour Chrome, Edge et Safari */
+::-webkit-scrollbar {
+    width: 0em; /* Largeur de la scrollbar */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: transparent; /* Fond transparent de la scrollbar */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: transparent; /* Couleur transparente pour la poignée de la scrollbar */
+  }
+  
+  /* Pour Firefox */
+  /* Veuillez noter que Firefox ne prend pas en charge la personnalisation de la scrollbar */
+  /* Vous pouvez essayer d'utiliser les propriétés scrollbar-color et scrollbar-width */
+  /* Cependant, cela peut ne pas fonctionner dans toutes les versions de Firefox */
+  

@@ -4,6 +4,8 @@ import Section from "../components/Section";
 import Polygons from "../components/section-we-are/Polygons";
 import RedSquare from "../components/section-we-are/RedSquare";
 import SectionHeadMotion from "../components/SectionHeadMotion";
+// @ts-ignore
+import foot from "../../src/assets/img/foot.mp4";
 
 const WeAre: FC = () => (
   <Section blackVLine>
@@ -13,12 +15,12 @@ const WeAre: FC = () => (
 
         {/* Large Title */}
         <h2
-          className="text-[#0f1923] mb-9 py-3 font-tungstenBold uppercase overflow-hidden
+          className="text-[#2CB9FF] mb-9 py-3 font-tungstenBold uppercase overflow-hidden
                 text-[3.375rem] md:text-8xl lg:text-[7.5rem]
                 leading-[0.94] md:leading-[0.86]
                 lg:pl-[8.5%]"
         >
-          <SectionHeadMotion>WE ARE VALORANT</SectionHeadMotion>
+          <SectionHeadMotion>NEWS</SectionHeadMotion>
         </h2>
 
         <div className="relative lg:flex lg:flex-wrap lg:items-center">
@@ -28,7 +30,7 @@ const WeAre: FC = () => (
               className="font-dinw05 text-xl leading-tight text-[#383e3a]
                         my-4 lg:my-6"
             >
-              DEFY THE LIMITS
+              RÉTROSPECTIVE
             </h2>
             <p
               className="text-[#768079] font-dinw1g relative
@@ -37,16 +39,14 @@ const WeAre: FC = () => (
                         text-lg lg:text-base
                         lg:w-[102%]"
             >
-              Blend your style and experience on a global, competitive stage.
-              You have 13 rounds to attack and defend your side using sharp
-              gunplay and tactical abilities. And, with one life per-round,
-              you'll need to think faster than your opponent if you want to
-              survive. Take on foes across Competitive and Unranked modes as
-              well as Deathmatch and Spike Rush.
+             ULG avait déjà fait des tournois entre quartiers pour promouvoir la jeunesse. Ce tournoi de foot avait pour but d'aider les jeunes et ainsi de montrer leur talant du ballon rond !
+             À la clef, il y avait des lots que tout le monde s'arrachait ( trottinette électronique ) ce fut un moment mémorable partager avec tous. C'est ainsi qu'ULG s'agrandit pour lancer sa nouvelle session sur un tournoi Esport inédit sur le jeu FIFA24 !
               <RedSquare className="bottom-0 -left-1/3 w-2 h-2" />
             </p>
             <div className="text-center mt-12 lg:relative lg:-left-1/4 xl:left-0">
-              <RiotButton accentBorder>Learn The Game</RiotButton>
+            <a href="/" >
+              <RiotButton accentBorder>En savoir plus</RiotButton>
+              </a>
             </div>
           </div>
 
@@ -79,21 +79,21 @@ const WeAre: FC = () => (
                   className="lg:absolute w-full h-full object-cover object-center"
                 >
                   <source
-                    src="https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltefd45731d8f9d9df/6217f2ea910a6c613c73168c/VALORANT_PLAY22_16x9_Target4_v005.mp4"
+                    src={foot}
                     type="video/mp4"
                   />
                 </video>
 
                 {/* Overlay Button */}
                 <div className="absolute w-full h-full top-0 left-0 flex items-center justify-center">
-                  <span className="relative inline-block w-[4.25rem] h-[4.25rem] border bg-red/30 overflow-hidden">
+                  <span className="relative inline-block w-[4.25rem] h-[4.25rem] border bg-black/30 overflow-hidden">
                     <svg
                       viewBox="0 0 72 72"
                       className="relative group-hover:scale-[1.15] ease-in-out duration-150 z-20"
                     >
                       <path
                         fill="none"
-                        stroke="#ece8e1"
+                        stroke="#2CB9FF"
                         d="M33.5 34.5v-5l8 6v2l-8 6v-5m28-29l-7 7m-38 38l-7 7"
                       ></path>
                     </svg>
@@ -108,12 +108,12 @@ const WeAre: FC = () => (
                 {/* Aspect Ratio Adjustment */}
                 <div className="lg:pt-[55%]"></div>
 
-                <span className="absolute top-5 -left-[3.75%] px-[3.75%] bg-red text-white font-dinw1g font-bold">
-                  Gameplay
+                <span className="absolute top-5 -left-[3.75%] px-[3.75%] bg-[#2CB9FF] text-white font-dinw1g font-bold">
+                  Tournoi de Foot inter-quartier
                 </span>
               </div>
               <div
-                className="bg-red w-28
+                className="bg-black w-28
               h-[3px] lg:h-[5px]"
               ></div>
             </div>
@@ -126,12 +126,12 @@ const WeAre: FC = () => (
 
     {/* Polygons on Large Screens */}
     <span
-      className="absolute border-solid bottom-0 left-0 border-l-red border-t-[transparent] z-10
+      className="absolute border-solid bottom-0 left-0 border-l-black border-t-[transparent] z-10
     lg:border-t-[5vw]
     lg:border-l-[7.3vw]
     "
     ></span>
-    <div className="absolute w-20 bottom-0 right-0 bg-red z-10 h-1 hidden lg:block"></div>
+    <div className="absolute w-20 bottom-0 right-0 bg-black z-10 h-1 hidden lg:block"></div>
   </Section>
 );
 

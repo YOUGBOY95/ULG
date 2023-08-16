@@ -34,7 +34,7 @@ const Polygons: FC = () => (
 
     {/* Red Line */}
     <div
-      className="bg-red absolute h-[3px] w-1/5 max-w-[6.25rem] left-[60%]
+      className="bg-black absolute h-[3px] w-1/5 max-w-[6.25rem] left-[60%]
     -top-[10vw] lg:-top-20"
     ></div>
   </>

@@ -37,7 +37,7 @@ const Hero: FC = () => {
                 text-lg lg:text-base
                 my-4 lg:mb-9 lg:mt-0"
           >
-            A 5v5 character-based tactical shooter
+           "Libérez la Puissance Intérieure, Dominez l'Arène Digitale !"
           </p>
         </div>
 
@@ -50,7 +50,7 @@ const Hero: FC = () => {
             lg:mt-[2.65rem] lg:mb-[3.75rem]
             "
         >
-          <RiotButton>Play Free</RiotButton>
+          <RiotButton>En savoir plus</RiotButton>
         </div>
       </div>
     </Section>

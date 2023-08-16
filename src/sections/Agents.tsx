@@ -9,7 +9,7 @@ import SectionHeadMotion from "../components/SectionHeadMotion";
 const Agents: FC = () => {
 
 
-    return <Section className="bg-red bg-contain bg-no-repeat md:bg-[url('/src/components/section-agents/agents-bg.webp')] bg-bottom pb-10 overflow-x-clip">
+    return <Section className="bg-black bg-contain bg-no-repeat md:bg-[url('/src/components/section-agents/agents-bg.webp')] bg-bottom pb-10 overflow-x-clip">
         <div className="lg:flex lg:flex-row-reverse lg:items-center">
 
             {/* Text & CTA */}
@@ -17,15 +17,15 @@ const Agents: FC = () => {
 
                 <h3 className="overflow-hidden relative font-tungstenBold leading-[0.94] py-7 mt-12 border-t border-slate-50/40 mb-3
             text-[3.5rem] md:text-[6.25rem] lg:text-[7.5rem]
-            md:pt-10
+            md:pt-10 
             ">
                     <SectionHeadMotion>
-                        YOUR AGENTS
+                 ULG ?
                     </SectionHeadMotion>
                 </h3>
-                <h3 className="font-dinw05 mb-4 text-xl leading-tight tracking-[-0.01em]">CREATIVITY IS YOUR GREATEST WEAPON.</h3>
+                <h3 className="font-dinw05 mb-4 text-xl leading-tight tracking-[-0.01em]  text-[#2CB9FF]">URBAN LEAGUE GAME</h3>
                 <p className="font-dinw1g text-lg leading-snug md:max-w-lg lg:max-w-[80%]">
-                    More than guns and bullets, you’ll choose an Agent armed with adaptive, swift, and lethal abilities that create opportunities to let your gunplay shine. No two Agents play alike, just as no two highlight reels will look the same.
+                Nous sommes une petite équipe qui s'est rassemblée autour de cette association afin de mener à bien ce projet qui nous est cher.
                 </p>
                 <div className="z-30
                 text-center lg:text-left
@@ -34,9 +34,12 @@ const Agents: FC = () => {
                 absolute lg:static
                 mt-[82vw] sm:mt-[70vw] md:mt-[60vw] lg:mt-12
                 ">
+
+                    <a href="/" >
                     <RiotButton white>
-                        View all agents
+                        En savoir plus 
                     </RiotButton>
+                    </a>
                 </div>
             </div>
 

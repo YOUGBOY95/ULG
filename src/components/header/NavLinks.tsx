@@ -1,6 +1,6 @@
 import { FC } from "react";
 
-const links = ["game info", "media", "news", "leaderboards", "more"];
+const links = ["ACTUALITÉS", "INSCRITPTION", "NEWS", "QUI SOMMES-NOUS ?", "PLUS"];
 
 const NavLinks: FC = () => (
   <nav
@@ -14,7 +14,7 @@ const NavLinks: FC = () => (
             {link}
           </span>
           <span
-            className="absolute w-full left-0 bg-red h-1 rounded-sm bottom-2 hidden 
+            className="absolute w-full left-0 bg-[#2CB9FF] h-1 rounded-sm bottom-2 hidden 
           group-hover:inline"
           ></span>
         </li>

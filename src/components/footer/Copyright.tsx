@@ -6,7 +6,7 @@ const Copyright: FC = () => (
     max-w-[368px] md:max-w-[640px]"
   >
     <p
-      className="font-ffmark text-center leading-[140%] text-[#7e7e7e] text-[13px] font-normal select-none"
+      className="font-ffmark text-center leading-[140%] text-white text-[13px] font-normal select-none"
       style={{ wordBreak: "keep-all" }}
     >
       © 2022 Riot Games, Inc. Riot Games, VALORANT, and any associated logos are

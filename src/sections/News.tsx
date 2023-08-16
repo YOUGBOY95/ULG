@@ -23,20 +23,20 @@ const News: FC = () => {
             top-8 lg:top-16
             "
         >
-          <span className="bg-red w-2 h-2 absolute"></span>
-          <span className="bg-red w-2 h-2 absolute right-0"></span>
+          <span className="bg-black w-2 h-2 absolute"></span>
+          <span className="bg-black w-2 h-2 absolute right-0"></span>
         </div>
 
         {/* Flex Header */}
         <div className="flex justify-between">
           <h2
-            className="z-20 overflow-hidden relative text-red font-tungstenBold
+            className="z-20 overflow-hidden relative text-[#2CB9FF] font-tungstenBold
             translate-y-[24%] lg:translate-y-[20%]
             leading-[0.95]
             text-[3.44rem] md:text-[6.25rem] lg:text-[7.5rem]
             py-1.5 lg:py-0"
           >
-            <SectionHeadMotion>LATEST NEWS</SectionHeadMotion>
+            <SectionHeadMotion>DERNIÈRES ACTUALITÉS</SectionHeadMotion>
           </h2>
           <div className="hidden lg:flex">
             <GoToNews />

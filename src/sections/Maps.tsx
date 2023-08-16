@@ -13,9 +13,9 @@ const Maps: FC = () => {
             className="overflow-hidden font-tungstenBold leading-[0.94] border-t border-slate-500
             py-[0.5em] lg:pt-8 lg:pb-0
             lg:mb-14
-            text-6xl md:text-[6.25rem] lg:text-[7.5rem]"
+            text-6xl md:text-[6.25rem] lg:text-[7.5rem] text-[#2CB9FF]"
           >
-            <SectionHeadMotion>YOUR MAPS</SectionHeadMotion>
+            <SectionHeadMotion>PLUS</SectionHeadMotion>
           </h2>
 
           <h2
@@ -23,7 +23,7 @@ const Maps: FC = () => {
                 mt-2 md:-mt-2
                 mb-4 lg:mb-5"
           >
-            Fight around the world
+            Informations supplémentaires
           </h2>
           <p
             className="text-[#768079] font-dinw1g
@@ -31,16 +31,14 @@ const Maps: FC = () => {
                 text-lg lg:text-base
                 max-w-[31.25rem] lg:max-w-[77%]"
           >
-            Each map is a playground to showcase your creative thinking.
-            Purpose-built for team strategies, spectacular plays, and clutch
-            moments. Make the play others will imitate for years to come.
+            Ici toute les informations supplémentaires concernant ULG.
           </p>
           <div
             className="
                 text-center lg:text-left 
                 mt-[25rem] lg:mt-12"
           >
-            <RiotButton accentBorder>View all maps</RiotButton>
+            <RiotButton accentBorder>VOIR PLUS</RiotButton>
           </div>
         </div>
       </div>
