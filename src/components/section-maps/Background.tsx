@@ -18,18 +18,18 @@ const Background: FC = () => {
         style={{ backgroundPositionX: -35, backgroundPositionY: -103 }}
       ></div>
 
-      <div
-        className="absolute bottom-0 right-0 w-full bg-cover bg-no-repeat left-0 overflow-clip
-        bg-[url('/src/components/section-maps/maps-bg.webp')] md:bg-none
-        h-[32.5rem] lg:h-[62vw]
-        lg:max-h-[55rem]"
-        style={{ backgroundPositionX: "70%" }}
-      >
+<div
+  className="absolute bottom-20 right-0 w-full bg-cover bg-no-repeat left-0 overflow-clip
+  bg-[url('/src/components/section-maps/maps-bg.webp')] md:bg-none
+  h-[32.5rem] lg:h-[62vw]
+  lg:max-h-[30rem]"
+  style={{ marginLeft: "-0%"}}
+>
         <motion.img
           style={{ translateX: translateBirdsX, translateY: translateBirdsY }}
           src={BirdsImg}
           alt="birds"
-          className="absolute w-auto h-[30%]
+          className="absolute w-auto h-[0%]
         right-0 xl:right-[7.3vw] 
         bottom-[2.5%] xl:bottom-[15%]
         hidden md:block"

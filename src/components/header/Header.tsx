@@ -7,7 +7,7 @@ import Twitch from "../../assets/img/twitch.png";
 import optilience from "../../assets/img/optilience.png";
 
 const Header: FC = () => (
-  <header className="flex fixed w-full top-0 left-0 h-20 items-center px-4 lg:px-9 bg-black font-markpro z-50 border-b-2 border-gray-700/40">
+  <header className="flex fixed w-full top-0 left-0 h-20 items-center px-4 lg:px-9 bg-black font-markpro z-50 border-b-2 border-white -700/40">
     <a href="/">{/* Utilisation de Link pour le lien */}
       <img src={optilience} alt="optilience" className="w-20 h-20 cursor-pointer" />
       </a>
@@ -25,7 +25,7 @@ const Header: FC = () => (
         rel="noreferrer"
         href="https://www.twitch.tv/"
       >
-        <img src={Twitch} alt="Twitch" className="w-7 h-7" />
+        <img src={Twitch} alt="Twitch" className="w-5 h-5" />
       </a>
       <SideMenuToggler />
     </div>

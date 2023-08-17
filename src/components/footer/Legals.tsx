@@ -17,7 +17,7 @@ const Legals: FC = () => {
           <li className="my-3 first:mt-0 last:mb-0 xl:my-0" key={item}>
             <span
               className="block py-2 px-4 text-white transition duration-200 leading-[1.15]
-            hover:cursor-pointer hover:bg-gray-400/20 hover:rounded-md"
+            hover:cursor-pointer hover:bg-black-400/20 hover:rounded-md"
             >
               {item}
             </span>
