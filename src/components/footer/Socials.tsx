@@ -18,7 +18,7 @@ const Socials: FC = () => (
     <ul className="flex flex-wrap flex-row items-center justify-center list-none">
       {socials.map((item) => (
         <li
-          className="cursor-pointer m-[6px] rounded-xl bg-gray-400/20 flex items-center justify-center
+          className="cursor-pointer m-[6px] rounded-xl bg-black-400/20 flex items-center justify-center
     w-12 lg:w-8
     h-12 lg:h-8"
           key={item.type}
