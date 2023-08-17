@@ -10,7 +10,7 @@ const NavLinks: FC = () => (
     <ul className="h-full flex flex-row items-stretch">
       {links.map((link) => (
         <li className="group mr-1 relative inline-flex" key={link}>
-          <span className="tracking-widest text-[12.5px] py-2 px-4 group-hover:bg-gray-500/30 rounded-md self-center cursor-pointer uppercase">
+          <span className="tracking-widest text-[12.5px] py-2 px-4 group-hover:bg-black-500/30 rounded-md self-center cursor-pointer uppercase">
             {link}
           </span>
           <span

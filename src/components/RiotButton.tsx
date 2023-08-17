@@ -8,7 +8,7 @@ const Button: FC<{
   const bg = white ? "bg-white" : "bg-black";
   const textColor = white ? "text-[#2CB9FF]" : "text-white";
   const buttonBorderClasses = `${
-    accentBorder ? "border-gray-400" : "border-slate-50/50"
+    accentBorder ? "border-black-400" : "border-slate-50/50"
   } border-r border-l w-full absolute  left-0 h-[calc(50%-0.375rem)]`;
   return (
     <button

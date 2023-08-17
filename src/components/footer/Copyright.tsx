@@ -9,7 +9,7 @@ const Copyright: FC = () => (
       className="font-ffmark text-center leading-[140%] text-white text-[13px] font-normal select-none"
       style={{ wordBreak: "keep-all" }}
     >
-      © 2022 Riot Games, Inc. Riot Games, VALORANT, and any associated logos are
+      © 2023 Riot Games, Inc. Riot Games, VALORANT, and any associated logos are
       trademarks, service marks, and/or registered trademarks of Riot Games,
       Inc.
     </p>
