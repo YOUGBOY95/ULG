@@ -1,4 +1,4 @@
-import { FC } from "react";
+import React, { FC, useState, useRef } from "react";
 import RiotButton from "../components/RiotButton";
 import Section from "../components/Section";
 import Polygons from "../components/section-we-are/Polygons";
@@ -7,7 +7,29 @@ import SectionHeadMotion from "../components/SectionHeadMotion";
 // @ts-ignore
 import foot from "../../src/assets/img/foot.mp4";
 
-const WeAre: FC = () => (
+const WeAre: FC = () => {
+  const [isPiP, setIsPiP] = useState(false);
+  const videoRef = useRef<HTMLVideoElement>(null);
+
+  const togglePiP = () => {
+    if (document.pictureInPictureEnabled) {
+      if (!isPiP) {
+        if (document.fullscreenElement) {
+          document.exitFullscreen(); // Quitter le mode plein écran si nécessaire
+        }
+        if (videoRef.current) {
+          videoRef.current.requestPictureInPicture(); // Entrer en mode PiP
+        }
+      } else {
+        if (document.pictureInPictureElement) {
+          document.exitPictureInPicture(); // Quitter le mode PiP si nécessaire
+        }
+      }
+      setIsPiP(!isPiP);
+    }
+  };
+
+  return (
   <Section blackVLine>
     <div className="relative w-full pt-[3.125rem]">
       <div className="relative pt-10 pb-5">
@@ -70,23 +92,25 @@ const WeAre: FC = () => (
 
               {/* Video Container */}
               <div className="relative group cursor-pointer lg:mt-7">
-                <video
-                  preload="true"
-                  muted
-                  loop
-                  playsInline
-                  autoPlay
-                  className="lg:absolute w-full h-full object-cover object-center"
-                >
-                  <source
-                    src={foot}
-                    type="video/mp4"
-                  />
-                </video>
+  <video
+    ref={videoRef}
+    preload="true"
+    muted
+    loop
+    playsInline
+    autoPlay
+    className="lg:absolute w-full h-full object-cover object-center"
+    onClick={togglePiP}
+  >
+    <source src={foot} type="video/mp4" />
+  </video>
 
                 {/* Overlay Button */}
                 <div className="absolute w-full h-full top-0 left-0 flex items-center justify-center">
-                  <span className="relative inline-block w-[4.25rem] h-[4.25rem] border bg-black/30 overflow-hidden">
+          <span
+            className="relative inline-block w-[4.25rem] h-[4.25rem] border bg-black/30 overflow-hidden"
+            onClick={togglePiP}
+          >
                     <svg
                       viewBox="0 0 72 72"
                       className="relative group-hover:scale-[1.15] ease-in-out duration-150 z-20"
@@ -134,5 +158,7 @@ const WeAre: FC = () => (
     <div className="absolute w-20 bottom-0 right-0 bg-black z-10 h-1 hidden lg:block"></div>
   </Section>
 );
+
+  };
 
 export default WeAre;
