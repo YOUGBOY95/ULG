@@ -14,6 +14,9 @@ const Act2: FC = () => {
   
   return (
     <Section className="h-[53.125rem] overflow-hidden">
+      <div id="inscriptions">
+      {/* Contenu de la section NEWS */}
+    </div>
       {/* Background Image */}
       <div className="h-full absolute left-0 top-0">
         <img
@@ -50,7 +53,7 @@ const Act2: FC = () => {
                 text-[3.4375rem] md:text-[6.25rem] lg:text-[7.5rem]
                 "
             >
-              <SectionHeadMotion>INSCRIPTION</SectionHeadMotion>
+              <SectionHeadMotion>INSCRIPTIONS</SectionHeadMotion>
               <Countdown
           date={countdownEndDate}
           renderer={({ days, hours, minutes, seconds, completed }) => (

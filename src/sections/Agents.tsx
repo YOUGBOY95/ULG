@@ -10,6 +10,9 @@ const Agents: FC = () => {
 
 
     return <Section className="bg-black bg-contain bg-no-repeat md:bg-[url('/src/components/section-agents/agents-bg.webp')] bg-bottom pb-10 overflow-x-clip">
+          <div id="ulg">
+      {/* Contenu de la section NEWS */}
+    </div>
         <div className="lg:flex lg:flex-row-reverse lg:items-center">
 
             {/* Text & CTA */}

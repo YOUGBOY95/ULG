@@ -7,6 +7,9 @@ import Background from "../components/section-maps/Background";
 const Maps: FC = () => {
   return (
     <Section className="pt-[3.75rem] md:pt-[7.5rem] lg:pt-10" blackVLine>
+      <div id="plus">
+      {/* Contenu de la section NEWS */}
+    </div>
       <div className="relative overflow-hidden pb-10 z-10">
         <div className="lg:ml-[8.5%] lg:mt-[calc(5vw+10px)] lg:mb-[5vw] lg:max-w-[42%] lg:pt-0 lg:pb-10">
           <h2

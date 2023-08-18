@@ -33,6 +33,9 @@ const WeAre: FC = () => {
   <Section blackVLine>
     <div className="relative w-full pt-[3.125rem]">
       <div className="relative pt-10 pb-5">
+      <div id="news">
+      {/* Contenu de la section NEWS */}
+    </div>
         <Polygons />
 
         {/* Large Title */}
@@ -72,14 +75,16 @@ const WeAre: FC = () => {
             </div>
           </div>
 
+          
+
           <div
             className="md:py-16 
-            lg:w-[calc(50%)] lg:ml-[9.5%]
+            lg:w-[calc(50%)] lg:ml-[5%]
             py-11 lg:py-0"
           >
             <div
               className="relative
-            lg:-ml-[6vw] lg:left-[7.5vw]"
+            lg:-ml-[6vw] lg:left-[7vw]"
             >
               {/* Squares */}
               <div
@@ -143,7 +148,7 @@ const WeAre: FC = () => {
             </div>
           </div>
 
-          <RedSquare className="left-0 top-0 w-2 h-2 hidden lg:block" />
+          <RedSquare className="left-5 top-0 w-2 h-2 hidden lg:block" />
         </div>
       </div>
     </div>
