@@ -31,6 +31,8 @@ const news: News[] = [
   },
 ];
 
+ 
+
 const BREAKPOINT = 25;
 const TRANSITION_CLASSES = ["ease-out", "duration-500"];
 
@@ -105,7 +107,7 @@ const Slider: FC = () => {
               className="relative block w-full h-auto overflow-hidden"
             >
               <span className="block relative w-full pt-[56.25%] z-20"></span>
-              <span className="absolute top-0 left-0 h-full -translate-x-[120%] -skew-x-12 bg-[#2CB9FF] mix-blend-multiply group-hover:-translate-x-1/4 easy-out duration-300 w-[150%] z-10"></span>
+              <span className="absolute top-0 left-0 h-full -translate-x-[120%] -skew-x-12 bg-[#2CB9FF] mix-blend-multiply group-hover:-translate-x-1/4 easy-out duration-300 w-[150%] z-10 "></span>
               <img
                 loading="lazy"
                 src={obj.img}
@@ -147,3 +149,4 @@ interface Axis {
   left?: number;
   right?: number;
 }
+
