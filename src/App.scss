@@ -111,3 +111,70 @@ body {
     margin-left: -12px; /* Vous pouvez ajuster la valeur selon vos besoins */
   }
   
+
+  .rounded-image {
+    border-radius: 10px; /* Changer la valeur pour ajuster le degré d'arrondi */
+  }
+  
+
+  /* Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+  }
+  
+  .navbar-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 3px 0;
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .navbar-links li {
+    margin-right: 20px;
+  }
+  
+  .navbar-links a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+  }
+  
+  .navbar-links a:hover {
+    color: #ff9900;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-toggle {
+      display: flex;
+    }
+  
+    .navbar-links {
+      flex-direction: column;
+      background-color: #333;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      z-index: 1;
+    }
+  
+    .navbar-links li {
+      margin: 10px 0;
+    }
+  }
+  

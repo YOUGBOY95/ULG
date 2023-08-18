@@ -109,12 +109,12 @@ const Slider: FC = () => {
               <span className="block relative w-full pt-[56.25%] z-20"></span>
               <span className="absolute top-0 left-0 h-full -translate-x-[120%] -skew-x-12 bg-[#2CB9FF] mix-blend-multiply group-hover:-translate-x-1/4 easy-out duration-300 w-[150%] z-10 "></span>
               <img
-                loading="lazy"
-                src={obj.img}
-                className="w-full h-full object-cover object-center absolute top-0 left-0"
-                alt="slider"
-                width={1280}
-                height={720}
+               loading="lazy"
+               src={obj.img}
+               className="w-full h-full object-cover object-center absolute top-0 left-0 rounded-image"
+               alt="slider"
+               width={1280}
+               height={720}
               />
             </picture>
             <div className="mt-[1.25rem] mb-[0.9375rem] leading-5 text-sm font-dinw05">

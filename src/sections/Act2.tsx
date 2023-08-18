@@ -18,7 +18,7 @@ const Act2: FC = () => {
       {/* Contenu de la section NEWS */}
     </div>
       {/* Background Image */}
-      <div className="h-full absolute left-0 top-0">
+      <div className="h-full absolute left-0 top-0 ">
         <img
           loading="lazy"
           className="object-cover max-w-none

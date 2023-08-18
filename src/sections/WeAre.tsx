@@ -137,18 +137,18 @@ const WeAre: FC = () => {
                 {/* Aspect Ratio Adjustment */}
                 <div className="lg:pt-[55%]"></div>
 
-                <span className="absolute top-5 -left-[3.75%] px-[3.75%] bg-[#2CB9FF] text-white font-dinw1g font-bold">
+                <span className="absolute top-5 -left-[3.75%] px-[3.75%] bg-[#2CB9FF] text-white font-dinw1g font-bold rounded-image">
                   Tournoi de Foot inter-quartier
                 </span>
               </div>
               <div
                 className="bg-black w-28
-              h-[3px] lg:h-[5px]"
+              h-[3px] lg:h-[5px] "
               ></div>
             </div>
           </div>
 
-          <RedSquare className="left-5 top-0 w-2 h-2 hidden lg:block" />
+          <RedSquare className="left-5 top-0 w-2 h-2 hidden lg:block " />
         </div>
       </div>
     </div>
@@ -160,7 +160,7 @@ const WeAre: FC = () => {
     lg:border-l-[7.3vw]
     "
     ></span>
-    <div className="absolute w-20 bottom-0 right-0 bg-black z-10 h-1 hidden lg:block"></div>
+    <div className="absolute w-20 bottom-0 right-0 bg-black z-10 h-1 hidden lg:block "></div>
   </Section>
 );
 
