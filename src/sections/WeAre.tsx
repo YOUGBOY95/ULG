@@ -70,7 +70,7 @@ const WeAre: FC = () => {
             </p>
             <div className="text-center mt-12 lg:relative lg:-left-1/4 xl:left-0">
             <a href="/" >
-              <RiotButton accentBorder>En savoir plus</RiotButton>
+              <RiotButton>En savoir plus</RiotButton>
               </a>
             </div>
           </div>

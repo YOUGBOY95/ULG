@@ -41,7 +41,9 @@ const Maps: FC = () => {
                 text-center lg:text-left 
                 mt-[25rem] lg:mt-12"
           >
-            <RiotButton accentBorder>VOIR PLUS</RiotButton>
+            <a href="/" >
+            <RiotButton>VOIR PLUS</RiotButton>
+            </a>
           </div>
         </div>
       </div>
