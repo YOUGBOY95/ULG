@@ -12,7 +12,7 @@ const BackgroundText: FC = () => {
         text-[32.5vw] md:text-[26vw] lg:text-[22.65vw]"
         style={{
           translateY: translateText,
-          WebkitTextStroke: "1px #2CB9FF",
+          WebkitTextStroke: "1px #A1D9FF",
           WebkitTextFillColor: "transparent",
         }}
       >
