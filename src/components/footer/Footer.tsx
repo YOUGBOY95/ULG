@@ -1,6 +1,6 @@
 import { FC } from "react";
 import Copyright from "./Copyright";
-import Legals from "./Legals";
+//import Legals from "./Legals";
 import Riot from "./Riot";
 import Socials from "./Socials";
 
@@ -9,7 +9,7 @@ const Footer: FC = () => (
     <Socials />
     <Riot />
     <Copyright />
-    <Legals />
+    
   </footer>
 );
 

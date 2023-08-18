@@ -6,32 +6,30 @@ import Twitter from "./icons/Twitter";
 import Youtube from "./icons/Youtube";
 
 const socials = [
-  <Twitter />,
-  <Youtube />,
-  <Instagram />,
-  <Facebook />,
-  <Discord />,
+  { icon: <Twitter />, link: "https://twitter.com/votrecompte" },
+  { icon: <Youtube />, link: "https://www.youtube.com/" },
+  { icon: <Instagram />, link: "https://instagram.com/votrecompte" },
+  { icon: <Facebook />, link: "https://facebook.com/votrecompte" },
+  { icon: <Discord />, link: "https://discord.gg/votrecompte" },
 ];
 
 const Socials: FC = () => (
   <div className="py-[18px]">
     <ul className="flex flex-wrap flex-row items-center justify-center list-none">
-      {socials.map((item) => (
+      {socials.map((item, index) => (
         <li
           className="cursor-pointer m-[6px] rounded-xl bg-black-400/20 flex items-center justify-center
-    w-12 lg:w-8
-    h-12 lg:h-8"
-          key={item.type}
+          w-5 h-5"
+          key={index}
         >
-          <span
-            className="fill-white
-        m-3 lg:m-0
-        w-6 lg:w-4
-        h-6 lg:h-4"
-            style={{ fillRule: "evenodd" }}
-          >
-            {item}
-          </span>
+          <a href={item.link} target="_blank" rel="noopener noreferrer">
+            <span
+              className="fill-white w-6 h-6"
+              style={{ fillRule: "evenodd" }}
+            >
+              {item.icon}
+            </span>
+          </a>
         </li>
       ))}
     </ul>
