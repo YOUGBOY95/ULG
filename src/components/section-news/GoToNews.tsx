@@ -29,7 +29,7 @@ const GoToNews: FC<GoToNewsProps> = ({ onClick, selectedEvent }) => {
       <p className="font-dinw05Bold uppercase text-[#2CB9FF] text-base mr-4 -tracking-wide" onClick={openPopup}>
         EN SAVOIR PLUS
       </p>
-      <span className="group-hover:translate-x-2.5 ease-out duration-300 w-6 h-6">
+      <span className="group-hover:translate-x-2.5 ease-out duration-300 w-6 h-6" onClick={openPopup}>
         {/* Animated Arrow */}
         <svg viewBox="0 0 25 15" className="w-full h-full">
           <path d="M16.2.5L19.9 4m4.6 3.5l-8.3 7" fill="none" stroke="#2CB9FF"></path>

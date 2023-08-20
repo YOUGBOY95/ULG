@@ -73,7 +73,7 @@ const News: FC = () => {
             text-[3.44rem] md:text-[6.25rem] lg:text-[7.5rem]
             py-1.5 lg:py-0"
           >
-            <SectionHeadMotion>DERNIÈRES ÉVÉNEMENTS</SectionHeadMotion>
+            <SectionHeadMotion>DERNIERS ÉVÉNEMENTS</SectionHeadMotion>
           </h2>
           <div className="hidden lg:flex">
           <GoToNews onClick={openPopup} selectedEvent={null} />
