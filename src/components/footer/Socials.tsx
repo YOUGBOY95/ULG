@@ -38,6 +38,8 @@ const Socials: FC = () => {
   return (
     <div className="py-[18px]">
       <ul className="flex flex-wrap flex-row items-center justify-center list-none">
+
+        
         {socials.map((item, index) => (
           <li
             className="cursor-pointer m-[6px] rounded-xl bg-black-400/20 flex items-center justify-center

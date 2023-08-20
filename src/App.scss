@@ -73,6 +73,14 @@ $fonts-src: './assets/fonts';
     font-display: swap;
 }
 
+@font-face {
+  font-family: 'Valorant Font';
+  src: url('#{$fonts-src}/valorant/Valorant Font.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 
 body {
     background-color: #ece8e1;
