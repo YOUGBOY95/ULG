@@ -7,9 +7,17 @@ const Copyright: FC = () => {
     <div className="mx-auto max-w-[368px] md:max-w-[640px]">
       <p
         className="font-ffmark text-center leading-[160%] text-white text-[13px] font-normal select-none"
-        style={{ wordBreak: "keep-all", marginTop: "30px" }} // Ajustez la valeur de marginTop selon vos besoins
+        style={{ wordBreak: "keep-all", marginTop: "30px" }}
       >
-        © {currentYear} SITE INTERNET CRÉÉ PAR ULG BY OPTILIENCE TOUS DROITS RÉSERVÉS.
+        © {currentYear} SITE INTERNET CRÉÉ PAR{" "}
+        <a href="/" className="text-white-400 hover:underline">
+          ULG
+        </a>{" "}
+        BY{" "}
+        <a href="/" className="text-white-400 hover:underline">
+          OPTILIENCE
+        </a>{" "}
+        TOUS DROITS RÉSERVÉS.
       </p>
     </div>
   );
