@@ -1,17 +1,10 @@
 import React, { FC, useState, useEffect } from "react";
-import Discord from "./icons/Discord";
-import Facebook from "./icons/Facebook";
-import Instagram from "./icons/Instagram";
-import Twitter from "./icons/Twitter";
-import Youtube from "./icons/Youtube";
+import Instagram from "../../assets/img/instagram.png";
+import Youtube from "../../assets/img/youtube.png";
+import Twitch from "../../assets/img/twitch.png";
+import TikTok from "../../assets/img/tik-tok.png";
 
-const socials = [
-  { icon: <Twitter />, link: "https://twitter.com/votrecompte" },
-  { icon: <Youtube />, link: "https://www.youtube.com/" },
-  { icon: <Instagram />, link: "https://instagram.com/votrecompte" },
-  { icon: <Facebook />, link: "https://facebook.com/votrecompte" },
-  { icon: <Discord />, link: "https://discord.gg/votrecompte" },
-];
+
 
 const Socials: FC = () => {
   const [showArrow, setShowArrow] = useState(false);
@@ -38,24 +31,40 @@ const Socials: FC = () => {
   return (
     <div className="py-[18px]">
       <ul className="flex flex-wrap flex-row items-center justify-center list-none">
+      
+      <a className="mr-4 mt-0.5"
+        target="_blank"
+        rel="noreferrer"
+        href="https://www.twitch.tv/"
+      >
+        <img src={Twitch} alt="Twitch" className="w-4 h-4" />
+      </a>
 
+      <a className="mr-4 mt-1.5"
+        target="_blank"
+        rel="noreferrer"
+        href="https://www.youtube.com/"
+      >
+        <img src={Youtube} alt="Youtube" className="w-5 h-5" />
+      </a>
+
+
+      <a className="mr-4 mt-"
+        target="_blank"
+        rel="noreferrer"
+        href="https://tiktok.com/"
+      >
+        <img src={TikTok} alt="TikTok" className="w-4 h-4" />
+      </a>
+
+      <a className="mr-0 mt-"
+        target="_blank"
+        rel="noreferrer"
+        href="https://www.instagram.com/"
+      >
+        <img src={Instagram} alt="Instagram" className="w-4 h-4" />
+      </a>
         
-        {socials.map((item, index) => (
-          <li
-            className="cursor-pointer m-[6px] rounded-xl bg-black-400/20 flex items-center justify-center
-            w-5 h-5"
-            key={index}
-          >
-            <a href={item.link} target="_blank" rel="noopener noreferrer">
-              <span
-                className="fill-white w-6 h-6"
-                style={{ fillRule: "evenodd" }}
-              >
-                {item.icon}
-              </span>
-            </a>
-          </li>
-        ))}
       </ul>
       {showArrow && (
         <div

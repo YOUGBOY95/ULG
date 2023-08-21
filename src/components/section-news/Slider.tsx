@@ -106,8 +106,9 @@ const Slider: FC = () => {
               key={obj.id}
               className="relative block w-full h-auto overflow-hidden"
             >
-              <span className="block relative w-full pt-[56.25%] z-20"></span>
-              <span className="absolute top-0 left-0 h-full -translate-x-[120%] -skew-x-12 bg-[#2CB9FF] mix-blend-multiply group-hover:-translate-x-1/4 easy-out duration-300 w-[150%] z-10 "></span>
+              <span className="block relative w-full pt-[56.25%] z-20 "></span>
+              <span className="absolute top-0 left-0 h-full -translate-x-[120%] -skew-x-12 bg-[#2CB9FF] mix-blend-multiply group-hover:-translate-x-1/4 easy-out duration-300 w-[150%] z-10 rounded"></span>
+
               <img
                loading="lazy"
                src={obj.img}

@@ -34,6 +34,7 @@ const SideMenuToggler: FC = () => {
         onClick={toggleMenu}
         className="flex justify-center items-center rounded-[35%] bg-black w-12 h-12 cursor-pointer lg:hidden"
       >
+        
         <Icon icon="ic:baseline-menu" className="text-[#fcfcfc]" height={24} />
       </span>
       

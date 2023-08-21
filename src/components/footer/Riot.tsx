@@ -1,13 +1,15 @@
-import { FC } from "react";
+import React, { FC } from "react";
 import Logo from "../../assets/img/logo.png";
+import optilience from "../../assets/img/optilience.png";
 
 const Riot: FC = () => (
-  <div className="flex items-baseline justify-center py-6 px-5 select-none">
-    <span className="fill-[#737373] w-[50px] h-8 hover:fill-[#2CB9FF]">
+  <div className="flex items-center justify-center py- px-5 select-none">
     <a href="/">
       <img src={Logo} alt="Logo" className="w-10 h-10 cursor-pointer" />
-      </a>
-    </span>
+    </a>
+    <a href="/">
+      <img src={optilience} alt="optilience" className="w-20 h-20 cursor-pointer" />
+    </a>
   </div>
 );
 
