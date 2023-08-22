@@ -41,7 +41,7 @@ const Act2: FC = () => {
             className="flex flex-col-reverse relative
           lg:ml-[1.875rem] lg:mt-[calc(5vw+0.625rem)] lg:mb-[5vw] lg:pb-10 lg:pt-[1.375rem]"
           > 
-          <a href="https://www.google.fr/intl/fr/forms/about/" >
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSc5U3SaCbsX_GiBn_MbvsU2VEgVCL3cWTm_l-0X0Q3NDnfA1A/viewform" >
           <RiotButton white>APERÇU</RiotButton>
         </a>
             

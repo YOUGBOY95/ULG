@@ -1,5 +1,5 @@
 import { FC, useEffect, useRef, useState } from "react";
-import player1 from "./slider-img/player1.jpg";
+import ULG from "./slider-img/ULG.jpg";
 import player2 from "./slider-img/player2.jpg";
 import esport from "./slider-img/esport.jpg";
 import { motion } from "framer-motion";
@@ -7,10 +7,10 @@ import { motion } from "framer-motion";
 const news: News[] = [
   {
     id: 1,
-    img: player1,
-    author: "Tournois - 1",
-    date: "03/04/23",
-    title: "Première phase d'admission pour les participants",
+    img: ULG,
+    author: "championnat interquartier",
+    date: "26/03/22",
+    title: "Lancement d'un championnat interquartier de foot ",
     videoLink: "https://www.youtube.com/?bp=wgUCEAE%3D", // Replace with your YouTube video link
   },
   {

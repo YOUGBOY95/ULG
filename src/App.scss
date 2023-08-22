@@ -138,4 +138,11 @@ body {
   }
   
   
-  
+  /* Socials.css */
+.arrow-icon {
+  transition: transform 0.2s ease-out;
+}
+
+.arrow-icon:hover {
+  transform: translate(0, -5px) rotate(-90deg);
+}

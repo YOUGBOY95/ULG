@@ -68,22 +68,12 @@ const Socials: FC = () => {
       </ul>
       {showArrow && (
         <div
-          className="cursor-pointer fixed bottom-5 right-5
-          group-hover:translate-y-2.5 ease-out duration-300 w-7 h-7 transform -rotate-90"
+          className="cursor-pointer fixed bottom-5 right-5 group-hover:translate-y-2.5 ease-out duration-300 w-7 h-7 transform -rotate-90 arrow-icon"
           onClick={openPopup}
         >
           <svg viewBox="0 0 25 15" className="w-full h-full">
-            <path
-              d="M16.2.5L19.9 4m4.6 3.5l-8.3 7"
-              fill="none"
-              stroke="#2cdcff"
-            ></path>
-            <path
-              fill="none"
-              stroke="#2cdcff"
-              strokeMiterlimit={10}
-              d="M16 7.5H0"
-            ></path>
+            <path d="M16.2.5L19.9 4m4.6 3.5l-8.3 7" fill="none" stroke="#2cdcff"></path>
+            <path fill="none" stroke="#2cdcff" strokeMiterlimit={10} d="M16 7.5H0"></path>
           </svg>
         </div>
       )}
