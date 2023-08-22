@@ -5,7 +5,7 @@ import Polygons from "../components/section-we-are/Polygons";
 import RedSquare from "../components/section-we-are/RedSquare";
 import SectionHeadMotion from "../components/SectionHeadMotion";
 // @ts-ignore
-import Foot from "../../src/assets/img/foot.mp4";
+import Foot from "../../src/assets/img/foot1.mp4";
 
 const WeAre: FC = () => {
   const [isPiP, setIsPiP] = useState(false);
@@ -100,7 +100,7 @@ const WeAre: FC = () => {
   <video
     ref={videoRef}
     preload="true"
-    muted // on peut supprimer muted pour que le son de la vidéo se joue 
+    //muted // on peut supprimer muted pour que le son de la vidéo se joue 
     loop
     playsInline
     autoPlay

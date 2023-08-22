@@ -1,5 +1,6 @@
 import { FC, useEffect, useRef, useState } from "react";
 import ULG from "./slider-img/ULG.jpg";
+//import player1 from "./slider-img/player1.jpg";
 import player2 from "./slider-img/player2.jpg";
 import esport from "./slider-img/esport.jpg";
 import { motion } from "framer-motion";
@@ -21,6 +22,7 @@ const news: News[] = [
     title: "Deuxième phase d'admission pour les participants",
     videoLink: "https://www.youtube.com/?bp=wgUCEAE%3D", // Replace with your YouTube video link
   },
+  
   {
     id: 3,
     img: esport,
@@ -29,6 +31,8 @@ const news: News[] = [
     title: "Venez découvrir la finale du tournois sur Twitch !",
     videoLink: "https://www.twitch.tv/", // Replace with your YouTube video link
   },
+  
+  
 ];
 
  
