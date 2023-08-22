@@ -1,4 +1,4 @@
-import React, { FC, useState } from "react";
+import React, { FC, useState, useEffect } from "react";
 import Section from "../components/Section";
 import BackgroundText from "../components/section-news/BackgroundText";
 import GoToNews from "../components/section-news/GoToNews";
@@ -36,7 +36,7 @@ const events = [
 
 const News: FC = () => {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
-  const [selectedEventIndex, setSelectedEventIndex] = useState(0); // Add this line
+  const [selectedEventIndex, setSelectedEventIndex] = useState(0);
 
   const openPopup = () => {
     setIsPopupOpen(true);
@@ -55,6 +55,24 @@ const News: FC = () => {
       prevIndex === 0 ? events.length - 1 : prevIndex - 1
     );
   };
+
+  useEffect(() => {
+    // Fonction pour gérer la rotation automatique des images
+    const rotateImages = () => {
+      const timer = setInterval(() => {
+        handleNextEvent(); // Appelle la fonction pour afficher l'image suivante
+      }, 15000); // Change d'image toutes les 15 secondes
+
+
+      return () => {
+        clearInterval(timer); // Nettoie le timer lorsque le composant est démonté
+      };
+    };
+
+    rotateImages(); // Appelle la fonction de rotation des images
+  }, []); 
+    
+  
 
   return (
     <Section className="overflow-hidden" blackVLine>
