@@ -42,7 +42,7 @@ const Maps: FC = () => {
                 mt-[25rem] lg:mt-12"
           >
             <a href="/" >
-            <RiotButton>VOIR PLUS</RiotButton>
+            <RiotButton>EN SAVOIR PLUS</RiotButton>
             </a>
           </div>
         </div>
