@@ -1,5 +1,5 @@
 import React, { FC, useState, useRef } from "react";
-import RiotButton from "../components/RiotButton";
+//import RiotButton from "../components/RiotButton";
 import Section from "../components/Section";
 import Polygons from "../components/section-we-are/Polygons";
 import RedSquare from "../components/section-we-are/RedSquare";
@@ -55,7 +55,7 @@ const WeAre: FC = () => {
               className="font-dinw05 text-xl leading-tight text-[#383e3a]
                         my-4 lg:my-6"
             >
-              RÉTROSPECTIVE
+            OUVERTURE DES INSCRIPTIONS ULG E-SPORT 2023 - 02/09/2023  
             </h2>
             <p
               className="text-[#768079] font-dinw1g relative
@@ -64,14 +64,18 @@ const WeAre: FC = () => {
                         text-lg lg:text-base
                         lg:w-[102%]"
             >
-             ULG avait déjà fait des tournois entre quartiers pour promouvoir la jeunesse. Ce tournoi de foot avait pour but d'aider les jeunes et ainsi de montrer leur talant du ballon rond !
-             À la clef, il y avait des lots que tout le monde s'arrachait ( trottinette électronique ) ce fut un moment mémorable partager avec tous. C'est ainsi qu'ULG s'agrandit pour lancer sa nouvelle session sur un tournoi Esport inédit sur le jeu FIFA24 !
+             C'est avec une grande excitation que nous annonçons le lancement tant attendu du tout premier tournoi E-SPORT de l'ULG ! Une opportunité en or pour tous les passionnés de jeux vidéo de démontrer leurs compétences et de se mesurer les uns aux autres dans une compétition en ligne palpitante.
+
+Les inscriptions, très attendues, sont enfin ouvertes à partir d'aujourd'hui. Si vous avez toujours rêvé de briller sur la scène e-sportive, c'est le moment idéal pour vous inscrire et montrer de quoi vous êtes capable. Le lien vers les inscriptions se trouve dans la section dédiée aux <a href="#inscriptions" className="lien-inscriptions">
+   "Inscriptions événements"
+</a>
+ sur notre site officiel.
               <RedSquare className="bottom-0 -left-1/3 w-2 h-2" />
             </p>
             <div className="text-center mt-12 lg:relative lg:-left-1/4 xl:left-0">
-            <a href="/" >
-              <RiotButton>En savoir plus</RiotButton>
-              </a>
+            {/* <a href="/" >
+                  <RiotButton>En savoir plus</RiotButton>
+                </a> */}
             </div>
           </div>
 
@@ -100,7 +104,7 @@ const WeAre: FC = () => {
   <video
     ref={videoRef}
     preload="true"
-    //muted // on peut supprimer muted pour que le son de la vidéo se joue 
+    muted // on peut supprimer muted pour que le son de la vidéo se joue 
     loop
     playsInline
     autoPlay
@@ -137,8 +141,8 @@ const WeAre: FC = () => {
                 {/* Aspect Ratio Adjustment */}
                 <div className="lg:pt-[55%]"></div>
 
-                <span className="absolute top-5 -left-[3.75%] px-[3.75%] bg-[#2CB9FF] text-white font-dinw1g font-bold rounded-image">
-                  Tournoi de Foot inter-quartier
+                <span className="absolute top-5 -left-[3.75%] px-[3.75%] bg-[#2CB9FF] text-white font-dinw1g font-bold">
+                  INSCRIPTIONS ULG E-SPORT 2023  - 02/09/2023
                 </span>
               </div>
               <div
