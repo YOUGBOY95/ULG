@@ -151,5 +151,11 @@ body {
 /* Dans votre feuille de style CSS ou via une balise <style> */
 .lien-inscriptions {
   color: #2CB9FF; /* Couleur bleue */
+  text-decoration: underline;
   /* Autres styles si nécessaires */
+}
+
+/* Dans votre feuille de style CSS ou via une balise <style> */
+.souligne {
+  text-decoration: underline; /* Soulignement du texte */
 }

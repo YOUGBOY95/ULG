@@ -11,11 +11,11 @@ const Copyright: FC = () => {
       >
         © {currentYear} SITE INTERNET CRÉÉ PAR{" "}
         <a href="/" className="text-white-400 hover:underline">
-          ULG
+        <span className="souligne">ULG</span>
         </a>{" "}
         BY{" "}
         <a href="/" className="text-white-400 hover:underline">
-          OPTILIENCE
+        <span className="souligne">OPTILIENCE</span>
         </a>{" "}
         TOUS DROITS RÉSERVÉS.
       </p>
