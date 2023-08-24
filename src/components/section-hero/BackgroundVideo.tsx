@@ -7,7 +7,7 @@ const BackgroundVideo: FC = () => (
   <div className="absolute top-0 left-0 object-cover w-full h-full z-0">
     <video
       autoPlay
-      //muted
+      muted
       playsInline
       loop
       className="w-full h-full object-cover"
