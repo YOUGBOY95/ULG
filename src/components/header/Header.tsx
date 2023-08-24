@@ -26,7 +26,7 @@ const Header: FC = () => (
       <a className="mr-4 mt-0.5"
         target="_blank"
         rel="noreferrer"
-        href="https://www.twitch.tv/"
+        href="https://www.twitch.tv/urbanleaguegame"
       >
         <img src={Twitch} alt="Twitch" className="w-4 h-4" />
       </a>
@@ -43,7 +43,7 @@ const Header: FC = () => (
       <a className="mr-4 mt-"
         target="_blank"
         rel="noreferrer"
-        href="https://tiktok.com/"
+        href="https://www.tiktok.com/@urbanleaguegame"
       >
         <img src={TikTok} alt="TikTok" className="w-4 h-4" />
       </a>
@@ -51,15 +51,11 @@ const Header: FC = () => (
       <a className="mr-2 mt-"
         target="_blank"
         rel="noreferrer"
-        href="https://www.instagram.com/"
+        href="https://www.instagram.com/urbanleaguegame/?igshid=MzRlODBiNWFlZA%3D%3D"
       >
         <img src={Instagram} alt="Instagram" className="w-4 h-4" />
       </a>
-  
-     
-
-
-
+      
       <SideMenuToggler />
     </div>
   </header>

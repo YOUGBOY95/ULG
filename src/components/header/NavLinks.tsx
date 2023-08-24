@@ -2,7 +2,7 @@ import { FC } from "react";
 
 const links = [
   { label: "ÉVÉNEMENTS", target: "événements" },
-  { label: "INSCRITPTIONS ÉVÉNEMENTS", target: "inscriptions" },
+  { label: "INSCRIPTIONS ÉVÉNEMENTS", target: "inscriptions" },
   { label: "NEWS", target: "news" },
   { label: "ULG ?", target: "ulg" },
   { label: "PLUS", target: "plus" },
@@ -15,7 +15,7 @@ const NavLinks: FC = () => (
         <li className="group mr-1 relative inline-flex" key={link.label}>
           <a
             href={`#${link.target}`} // Utilisation du lien d'ancrage
-            className="tracking-widest text-[12.5px] py-2 px-4 group-hover:bg-black-500/30 rounded-md self-center cursor-pointer uppercase"
+            className="tracking-widest text-[12.5px] py-2 px-4 group-hover:bg-black-500/30 group-hover:text-[#2CB9FF] rounded-md self-center cursor-pointer uppercase transition-colors"
           >
             {link.label}
           </a>
@@ -29,4 +29,3 @@ const NavLinks: FC = () => (
 );
 
 export default NavLinks;
-
