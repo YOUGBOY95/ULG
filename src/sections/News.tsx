@@ -61,7 +61,7 @@ const News: FC = () => {
     const rotateImages = () => {
       const timer = setInterval(() => {
         handleNextEvent(); // Appelle la fonction pour afficher l'image suivante
-      }, 15000); // Change d'image toutes les 15 secondes
+      }, 25000); // Change d'image toutes les 25 secondes
 
 
       return () => {

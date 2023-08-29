@@ -1,5 +1,5 @@
 import { FC } from "react";
-import RiotButton from "../components/RiotButton";
+//import RiotButton from "../components/RiotButton";
 import Section from "../components/Section";
 import BackgroundVideo from "../components/section-hero/BackgroundVideo";
 import CornerTri from "../components/section-hero/CornerTri";
@@ -37,7 +37,7 @@ const Hero: FC = () => {
                 text-lg lg:text-base
                 my-4 lg:mb-9 lg:mt-0"
           >
-           "Libérez la Puissance Intérieure, Dominez l'Arène Digitale !"
+           
           </p>
         </div>
 
@@ -50,7 +50,7 @@ const Hero: FC = () => {
             lg:mt-[2.65rem] lg:mb-[3.75rem]
             "
         >
-          <RiotButton>En savoir plus</RiotButton>
+          
         </div>
       </div>
     </Section>

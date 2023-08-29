@@ -10,7 +10,7 @@ const ULGLogo: FC<{ width?: number; height?: number, fill?: string }> = ({ width
         }
       `}
     </style>
-    <text x="30" y="40" fontSize="38" fontFamily="'Valorant Font', sans-serif">ULG - ESPORT</text>
+    <text x="30" y="40" fontSize="38" fontFamily="'Valorant Font', sans-serif"></text>
   </svg>
 );
 

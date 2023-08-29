@@ -12,7 +12,7 @@ const news: News[] = [
     author: "championnat interquartier",
     date: "26/03/22",
     title: "Lancement d'un championnat interquartier de foot ",
-    videoLink: "https://www.youtube.com/?bp=wgUCEAE%3D", // Replace with your YouTube video link
+    
   },
   {
     id: 2,
@@ -20,7 +20,7 @@ const news: News[] = [
     author: "Tournois - 2",
     date: "03/05/23",
     title: "Deuxième phase d'admission pour les participants",
-    videoLink: "https://www.youtube.com/?bp=wgUCEAE%3D", // Replace with your YouTube video link
+ 
   },
   
   {
@@ -29,7 +29,7 @@ const news: News[] = [
     author: "Final sur Twitch !",
     date: "03/08/23",
     title: "Venez découvrir la finale du tournois sur Twitch !",
-    videoLink: "https://www.twitch.tv/", // Replace with your YouTube video link
+    
   },
   
   
@@ -105,7 +105,7 @@ const Slider: FC = () => {
         lg:mr-[1.875rem]"
           key={obj.id}
         >
-          <a href={obj.videoLink} target="_blank" rel="noopener noreferrer">
+          
             <picture
               key={obj.id}
               className="relative block w-full h-auto overflow-hidden"
@@ -132,7 +132,7 @@ const Slider: FC = () => {
             <h3 className="font-dinw05Bold mb-4 text-[1.25rem] leading-tight uppercase text-[#383e3a]">
               {obj.title}
             </h3>
-          </a>
+          
         </div>
       ))}
     </motion.div>
@@ -147,7 +147,7 @@ interface News {
   date: string;
   title: string;
   author: string;
-  videoLink: string; // Add videoLink property
+ // videoLink: string; // Add videoLink property
 }
 
 interface Axis {
