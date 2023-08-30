@@ -50,11 +50,11 @@ const SideMenuToggler: FC = () => {
             <Icon icon="ic:baseline-close" className="text-[#fcfcfc]" height={24} />
           </span>
 
-          <a href="/" style={{ position: "absolute", top: "0.9rem", left: "1rem" }}>
+          <a href="/" style={{ position: "absolute", top: "0.8rem", left: "1rem" }}>
             <img src={Logo} alt="Logo" className="w-14 h-14 cursor-pointer" />
           </a>
     
-          <a href="/" style={{ position: "absolute", top: "-0.9rem", left: "4.5rem" }}>
+          <a href="/" style={{ position: "absolute", top: "-1rem", left: "4.5rem" }}>
             <img src={optilience} alt="optilience" className="w-28 h-28 cursor-pointer" />
           </a>
           
