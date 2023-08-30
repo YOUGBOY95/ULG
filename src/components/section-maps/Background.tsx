@@ -21,8 +21,8 @@ const Background: FC = () => {
 <div
   className="absolute bottom-20 right-0 w-full bg-cover bg-no-repeat left-0 overflow-clip
   bg-[url('/src/components/section-maps/maps-bg.webp')] md:bg-none
-  h-[32.5rem] lg:h-[62vw]
-  lg:max-h-[30rem]"
+  h-[25rem] lg:h-[62vw]
+  lg:max-h-[25rem]"
   style={{ marginLeft: "-0%"}}
 >
         <motion.img

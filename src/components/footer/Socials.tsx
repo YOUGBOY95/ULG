@@ -29,7 +29,7 @@ const Socials: FC = () => {
   }, []);
 
   return (
-    <div className="py-[18px]">
+    <div className="py-[25px]">
       <ul className="flex flex-wrap flex-row items-center justify-center list-none">
       
       <a className="mr-4 mt-0.5 "

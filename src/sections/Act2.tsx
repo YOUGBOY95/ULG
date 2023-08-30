@@ -8,7 +8,7 @@ import Act2Img from "../assets/img/Act2.jpg";
 const Act2: FC = () => {
 
   // Date de fin du compte à rebours (remplacez avec la date souhaitée)
-  const countdownEndDate = new Date('2023-09-01T00:00:00');
+  const countdownEndDate = new Date('2023-09-02T00:00:00');
 
 
   
@@ -41,8 +41,8 @@ const Act2: FC = () => {
             className="flex flex-col-reverse relative
           lg:ml-[1.875rem] lg:mt-[calc(5vw+0.625rem)] lg:mb-[5vw] lg:pb-10 lg:pt-[1.375rem]"
           > 
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSc5U3SaCbsX_GiBn_MbvsU2VEgVCL3cWTm_l-0X0Q3NDnfA1A/viewform" >
-          <RiotButton white>APERÇU</RiotButton>
+          <a href="https://linktr.ee/optilience" >
+          <RiotButton white>INCRIS-TOI MAINTENANT !</RiotButton>
         </a>
             
             <h2 className="absolute font-dinw05 text-white tracking-[0.35em] top-0 my-4 leading-tight text-xl">

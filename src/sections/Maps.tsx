@@ -1,5 +1,5 @@
 import { FC } from "react";
-import RiotButton from "../components/RiotButton";
+//import RiotButton from "../components/RiotButton";
 import Section from "../components/Section";
 import SectionHeadMotion from "../components/SectionHeadMotion";
 import Background from "../components/section-maps/Background";
@@ -7,7 +7,7 @@ import Background from "../components/section-maps/Background";
 const Maps: FC = () => {
   return (
     <Section className="pt-[3.75rem] md:pt-[7.5rem] lg:pt-10" blackVLine>
-      <div id="plus">
+      <div id="prochainement">
       {/* Contenu de la section NEWS */}
     </div>
       <div className="relative overflow-hidden pb-10 z-10">
@@ -18,7 +18,7 @@ const Maps: FC = () => {
             lg:mb-14
             text-6xl md:text-[6.25rem] lg:text-[7.5rem] text-[#2CB9FF]"
           >
-            <SectionHeadMotion>PLUS</SectionHeadMotion>
+            <SectionHeadMotion>PROCHAINEMENT...</SectionHeadMotion>
           </h2>
 
           <h2
@@ -26,7 +26,7 @@ const Maps: FC = () => {
                 mt-2 md:-mt-2
                 mb-4 lg:mb-5"
           >
-            Informations supplémentaires
+         
           </h2>
           <p
             className="text-[#768079] font-dinw1g
@@ -34,16 +34,14 @@ const Maps: FC = () => {
                 text-lg lg:text-base
                 max-w-[31.25rem] lg:max-w-[77%]"
           >
-            Ici toute les informations supplémentaires concernant ULG.
+            
           </p>
           <div
             className="
                 text-center lg:text-left 
                 mt-[25rem] lg:mt-12"
           >
-            <a href="/" >
-            <RiotButton>EN SAVOIR PLUS</RiotButton>
-            </a>
+            
           </div>
         </div>
       </div>

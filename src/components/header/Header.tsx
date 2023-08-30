@@ -13,10 +13,10 @@ const Header: FC = () => (
   <header className="flex fixed w-full top-0 left-0 h-20 items-center px-4 lg:px-10 bg-black font-markpro z-50 border-b-2 border-black -700/40">
     
     <a href="/">{/* Utilisation de Link pour le lien */}
-      <img src={Logo} alt="Logo" className="w-10 h-10 cursor-pointer" />
+      <img src={Logo} alt="Logo" className="w-14 h-14 cursor-pointer" />
       </a>
       <a href="/">{/* Utilisation de Link pour le lien */}
-      <img src={optilience} alt="optilience" className="w-20 h-20 cursor-pointer" />
+      <img src={optilience} alt="optilience" className="w-28 h-28 cursor-pointer" />
       </a>
     
       <NavLinks />

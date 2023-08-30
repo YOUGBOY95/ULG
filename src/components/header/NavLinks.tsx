@@ -5,7 +5,7 @@ const links = [
   { label: "INSCRIPTIONS ÉVÉNEMENTS", target: "inscriptions" },
   { label: "NEWS", target: "news" },
   { label: "ULG ?", target: "ulg" },
-  { label: "PLUS", target: "plus" },
+  { label: "PROCHAINEMENT", target: "prochainement" },
 ];
 
 const NavLinks: FC = () => (

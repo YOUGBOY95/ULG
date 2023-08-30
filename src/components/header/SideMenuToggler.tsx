@@ -25,7 +25,7 @@ const SideMenuToggler: FC = () => {
     { label: "INSCRIPTIONS ÉVÉNEMENTS", target: "inscriptions" },
     { label: "NEWS", target: "news" },
     { label: "ULG ?", target: "ulg" },
-    { label: "PLUS", target: "plus" },
+    { label: "PROCHAINEMENT", target: "prochainement" },
   ];
 
   return (
@@ -50,12 +50,12 @@ const SideMenuToggler: FC = () => {
             <Icon icon="ic:baseline-close" className="text-[#fcfcfc]" height={24} />
           </span>
 
-          <a href="/" style={{ position: "absolute", top: "1.2rem", left: "1rem" }}>
-            <img src={Logo} alt="Logo" className="w-10 h-10 cursor-pointer" />
+          <a href="/" style={{ position: "absolute", top: "0.9rem", left: "1rem" }}>
+            <img src={Logo} alt="Logo" className="w-14 h-14 cursor-pointer" />
           </a>
     
-          <a href="/" style={{ position: "absolute", top: "-0.05rem", left: "3.5rem" }}>
-            <img src={optilience} alt="optilience" className="w-20 h-20 cursor-pointer" />
+          <a href="/" style={{ position: "absolute", top: "-0.9rem", left: "4.5rem" }}>
+            <img src={optilience} alt="optilience" className="w-28 h-28 cursor-pointer" />
           </a>
           
           <div className="flex flex-col items-center justify-center h-full">
