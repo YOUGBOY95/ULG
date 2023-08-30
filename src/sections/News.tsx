@@ -1,4 +1,4 @@
-import React, { FC, useState, useEffect } from "react";
+import React, { FC, useState} from "react";
 import Section from "../components/Section";
 import BackgroundText from "../components/section-news/BackgroundText";
 import GoToNews from "../components/section-news/GoToNews";
@@ -19,15 +19,15 @@ const events = [
 
   {
     img: player2,
-    author: "Tournois - 2",
-    date: "03/05/23",
-    title: "Deuxième phase d'admission pour les participants",
+    author: "ULG E-SPORT 2023 FIFA édition",
+    date: "28/10/23",
+    title: "Phase qualificative pour le tournoi du 28 au 29 octobre 2023",
   },
   {
     img: esport,
-    author: "Final sur Twitch !",
-    date: "03/08/23",
-    title: "Venez découvrir la finale du tournois sur Twitch !",
+    author: "ULG E-SPORT 2023 FIFA édition - Finale",
+    date: "à venir...",
+    title: "Phase finale du tournoi e-sport !",
   },
   // Ajoutez plus d'événements de cette manière
 ];
@@ -56,21 +56,7 @@ const News: FC = () => {
     );
   };
 
-  useEffect(() => {
-    // Fonction pour gérer la rotation automatique des images
-    const rotateImages = () => {
-      const timer = setInterval(() => {
-        handleNextEvent(); // Appelle la fonction pour afficher l'image suivante
-      }, 25000); // Change d'image toutes les 25 secondes
-
-
-      return () => {
-        clearInterval(timer); // Nettoie le timer lorsque le composant est démonté
-      };
-    };
-
-    rotateImages(); // Appelle la fonction de rotation des images
-  }, []); 
+ 
     
   
 
@@ -185,23 +171,27 @@ const News: FC = () => {
       <br />
       {event.author === "Championnat interquartier" && (
         <p className="mt-0" style={{ whiteSpace: "pre-line" }}>
-         "En 2022 OPTILIENCE lançait le concept ULG, un championnat de Streetfootball inédit se déroulant sur 5 mois.
-
+         En 2022 OPTILIENCE lançait le concept ULG, un championnat de Streetfootball inédit se déroulant sur 5 mois.
+         {"\n"}
+         <br></br>
 Près de 40 bénévoles ont oeuvré dans l'accompagnement de près 100 jeunes issus de différents quartiers de Garges répartis en 9 équipes.
-
+{"\n"}
+<br></br>
 Un travail préliminaire et des sessions de brainstorming ont été réalisés 3 mois en amont de la comptétition. Chaque équipe a été accompagnée dans la création d'une nouvelle identité positive afin d'améliorer la perception mentale de leur quartier et de leur environnement.
-
+{"\n"}
+<br></br>
 Ce dispositif sportif fût vecteur d'inclusion et de cohésion en permettant à la fois de stimuler la créativité et les "softs skills" des jeunes accompagnés. Ils ont ainsi été sensibilises à la citoyenneté et aux valeurs de la République à travers une écoute systématique de la Marseillaises avant chaque match.
- 
-Ce projet n'aurait pas pu être réalisé sans le soutien des pouvoirs publiques tels que la Ville de Garges, la préfecture du Val d'Oise, l'association Créative, ou encore des entreprises comme le BIG5 et R+Sport, que nous tenons sincèrement à remercier."
+{"\n"}
+<br></br>
+Ce projet n'aurait pas pu être réalisé sans le soutien des pouvoirs publiques tels que la Ville de Garges, la préfecture du Val d'Oise, l'association Créative, ou encore des entreprises comme le BIG5 et R+Sport, que nous tenons sincèrement à remercier.
         </p>
        )}
-       {event.author === "Tournois - 2" && (
+       {event.author === "ULG E-SPORT 2023 FIFA édition" && (
          <p className="mt-2" style={{ whiteSpace: "pre-line" }}>
-           "On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même. L'avantage du Lorem Ipsum sur un texte générique comme 'Du texte. Du texte. Du texte.' est qu'il possède une distribution de lettres plus ou moins normale, et en tout cas comparable avec celle du français standard. De nombreuses suites logicielles de mise en page ou éditeurs de sites Web ont fait du Lorem Ipsum leur faux texte par défaut, et une recherche pour 'Lorem Ipsum' vous conduira vers de nombreux sites qui n'en sont encore qu'à leur phase de construction. Plusieurs versions sont apparues avec le temps, parfois par accident, souvent intentionnellement (histoire d'y rajouter de petits clins d'oeil, voire des phrases embarassantes)."
+           "Contrairement à une opinion répandue, le Lorem Ipsum n'est pas simplement du texte aléatoire. Il trouve ses racines dans une oeuvre de la littérature latine classique datant de 45 av. J.-C., le rendant vieux de 2000 ans. Un professeur du Hampden-Sydney College, en Virginie, s'est intéressé à un des mots latins les plus obscurs, consectetur, extrait d'un passage du Lorem Ipsum, et en étudiant tous les usages de ce mot dans la littérature classique, découvrit la source incontestable du Lorem Ipsum. Il provient en fait des sections 1.10.32 et 1.10.33 du "De Finibus Bonorum et Malorum" (Des Suprêmes Biens et des Suprêmes Maux) de Cicéron. Cet ouvrage, très populaire pendant la Renaissance, est un traité sur la théorie de l'éthique."
          </p>
        )}
-       {event.author === "Final sur Twitch !" && (
+       {event.author === "ULG E-SPORT 2023 FIFA édition - Finale" && (
          <p className="mt-2" style={{ whiteSpace: "pre-line" }}>
            "Contrairement à une opinion répandue, le Lorem Ipsum n'est pas simplement du texte aléatoire. Il trouve ses racines dans une oeuvre de la littérature latine classique datant de 45 av. J.-C., le rendant vieux de 2000 ans. Un professeur du Hampden-Sydney College, en Virginie, s'est intéressé à un des mots latins les plus obscurs, consectetur, extrait d'un passage du Lorem Ipsum, et en étudiant tous les usages de ce mot dans la littérature classique, découvrit la source incontestable du Lorem Ipsum. Il provient en fait des sections 1.10.32 et 1.10.33 du "De Finibus Bonorum et Malorum" (Des Suprêmes Biens et des Suprêmes Maux) de Cicéron. Cet ouvrage, très populaire pendant la Renaissance, est un traité sur la théorie de l'éthique."
          </p>

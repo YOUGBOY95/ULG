@@ -2,7 +2,7 @@ import React, { FC, useState } from "react";
 import RiotButton from "../components/RiotButton";
 import Section from "../components/Section";
 import AgentImage from "../components/section-agents/AgentImage";
-import Background from "../components/section-agents/Background";
+//import Background from "../components/section-agents/Background";
 import SectionHeadMotion from "../components/SectionHeadMotion";
 import ULG from "../components/section-news/slider-img/trophée.jpg";
 
@@ -55,7 +55,7 @@ const Agents: FC = () => {
         </div>
         <AgentImage />
       </div>
-      <Background />
+      
 
       {/* Fenêtre popup */}
       {isPopupOpen && (

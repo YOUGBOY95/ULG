@@ -42,11 +42,11 @@ const Act2: FC = () => {
           lg:ml-[1.875rem] lg:mt-[calc(5vw+0.625rem)] lg:mb-[5vw] lg:pb-10 lg:pt-[1.375rem]"
           > 
           <a href="https://linktr.ee/optilience" >
-          <RiotButton white>INCRIS-TOI MAINTENANT !</RiotButton>
+          <RiotButton white>INSCRIS-TOI MAINTENANT !</RiotButton>
         </a>
             
             <h2 className="absolute font-dinw05 text-white tracking-[0.35em] top-0 my-4 leading-tight text-xl">
-              EPISODE_1//ACT I
+              ULG E-SPORT "FIFA ÉDITION" // ACTE-1
             </h2>
             <h2
               className="overflow-hidden font-tungstenBold text-white pt-[3.125rem] mt-2 mb-9 pb-[0.35rem] leading-[0.94]

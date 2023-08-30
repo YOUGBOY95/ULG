@@ -17,18 +17,18 @@ const news: News[] = [
   {
     id: 2,
     img: player2,
-    author: "Tournois - 2",
-    date: "03/05/23",
-    title: "Deuxième phase d'admission pour les participants",
+    author: "ULG E-SPORT 2023 FIFA édition",
+    date: "28/10/23",
+    title: "Phase qualificative pour le tournoi du 28 au 29 octobre 2023",
  
   },
   
   {
     id: 3,
     img: esport,
-    author: "Final sur Twitch !",
-    date: "03/08/23",
-    title: "Venez découvrir la finale du tournois sur Twitch !",
+    author: "ULG E-SPORT 2023 FIFA édition - Finale",
+    date: "à venir...",
+    title: "Phase finale du tournoi e-sport !",
     
   },
   
