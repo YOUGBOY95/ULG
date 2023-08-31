@@ -2,7 +2,8 @@ import { FC, useEffect, useRef, useState } from "react";
 import ULG from "./slider-img/ULG.jpg";
 //import player1 from "./slider-img/player1.jpg";
 import player2 from "./slider-img/player2.jpg";
-import esport from "./slider-img/esport.jpg";
+//import esport from "./slider-img/esport.jpg";
+import player3 from "./slider-img/player3.jpg";
 import { motion } from "framer-motion";
 
 const news: News[] = [
@@ -15,6 +16,15 @@ const news: News[] = [
     
   },
   {
+    id: 3,
+    img: player3,
+    author: "ULG E-SPORT 2023 FIFA édition - Annonce",
+    date: "02/09/2023",
+    title: "Lancement du tournoi ULG E-SPORT 2023 FIFA édition",
+    
+  },
+
+  {
     id: 2,
     img: player2,
     author: "ULG E-SPORT 2023 FIFA édition",
@@ -23,14 +33,7 @@ const news: News[] = [
  
   },
   
-  {
-    id: 3,
-    img: esport,
-    author: "ULG E-SPORT 2023 FIFA édition - Finale",
-    date: "à venir...",
-    title: "Phase finale du tournoi e-sport !",
-    
-  },
+  
   
   
 ];

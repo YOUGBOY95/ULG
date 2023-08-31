@@ -6,7 +6,8 @@ import Slider from "../components/section-news/Slider";
 import SectionHeadMotion from "../components/SectionHeadMotion";
 import ULG from "../components/section-news/slider-img/ULG.jpg";
 import player2 from "../components/section-news/slider-img/player2.jpg";
-import esport from "../components/section-news/slider-img/esport.jpg";
+import player3 from "../components/section-news/slider-img/player3.jpg";
+//import esport from "../components/section-news/slider-img/esport.jpg";
 
 
 const events = [
@@ -17,17 +18,19 @@ const events = [
     title: "Lancement d'un championnat interquartier de foot ",
   },
 
+ 
+  {
+    img: player3,
+    author: "ULG E-SPORT 2023 FIFA édition - Annonce",
+    date: "02/09/2023",
+    title: "Lancement du tournoi ULG E-SPORT 2023 FIFA édition",
+  },
+
   {
     img: player2,
     author: "ULG E-SPORT 2023 FIFA édition",
     date: "28/10/23",
     title: "Phase qualificative pour le tournoi du 28 au 29 octobre 2023",
-  },
-  {
-    img: esport,
-    author: "ULG E-SPORT 2023 FIFA édition - Finale",
-    date: "à venir...",
-    title: "Phase finale du tournoi e-sport !",
   },
   // Ajoutez plus d'événements de cette manière
 ];
@@ -188,12 +191,70 @@ Ce projet n'aurait pas pu être réalisé sans le soutien des pouvoirs publiques
        )}
        {event.author === "ULG E-SPORT 2023 FIFA édition" && (
          <p className="mt-2" style={{ whiteSpace: "pre-line" }}>
-           "Contrairement à une opinion répandue, le Lorem Ipsum n'est pas simplement du texte aléatoire. Il trouve ses racines dans une oeuvre de la littérature latine classique datant de 45 av. J.-C., le rendant vieux de 2000 ans. Un professeur du Hampden-Sydney College, en Virginie, s'est intéressé à un des mots latins les plus obscurs, consectetur, extrait d'un passage du Lorem Ipsum, et en étudiant tous les usages de ce mot dans la littérature classique, découvrit la source incontestable du Lorem Ipsum. Il provient en fait des sections 1.10.32 et 1.10.33 du "De Finibus Bonorum et Malorum" (Des Suprêmes Biens et des Suprêmes Maux) de Cicéron. Cet ouvrage, très populaire pendant la Renaissance, est un traité sur la théorie de l'éthique."
+            Comme vous le savez, le tournoi <strong><span className="gras">ULG E-SPORT 2023 " FIFA édition"</span></strong> est lancé !
+           {"\n"}
+         <br></br>
+Voici quelques informations supplémentaires sur son déroulement.
+{"\n"}
+         <br></br>
+
+Celui-ci sera un tournoi <strong>exclusivement en binôme</strong> qui se jouera sur consoles<strong>(Playstation)</strong> et se divisera en deux étapes :
+{"\n"}
+         <br></br>
+         <strong>UNE PHASE QUALIFICATIVE : 28 et 29 Octobre</strong> 
+{"\n"}
+         <br></br>
+<strong>192 participants</strong>  de toute la ville s'affronteront directement en équipes
+{"\n"}
+         <br></br>
+Les rencontres seront interquartiers/zone de résidence via un système de poules éliminatoires
+{"\n"}
+         <br></br>
+A l'issue de cette phase chaque quartier aura son binôme <strong>"champion du quartier"</strong> capable de se retrouver en finale
+{"\n"}
+         <br></br>
+         <strong>UNE PHASE FINALE : <em>Date à venir</em></strong>
+{"\n"}
+         <br></br>
+Les <strong>"champions de quartier"</strong> précédemment qualifiés joueront les uns contre les autres via un nouveau système de poules éliminatoires
+Le meilleur d'entre vous sera alors désigné comme équipe gagnante du tournoi !
+{"\n"}
+         <br></br>
+Vous retrouverez <strong><span className="gras">l'ensemble de ces modalités et plus encore via notre système d'inscription.</span></strong>
+{"\n"}
+         <br></br>
+Bon courage à tous et à toutes, hâte de démarrer cette aventure avec vous et que la meilleure équipe gagne !
+{"\n"}
+         <br></br>
+En attendant, à vos manettes !
+
+
          </p>
        )}
-       {event.author === "ULG E-SPORT 2023 FIFA édition - Finale" && (
+       {event.author === "ULG E-SPORT 2023 FIFA édition - Annonce" && (
          <p className="mt-2" style={{ whiteSpace: "pre-line" }}>
-           "Contrairement à une opinion répandue, le Lorem Ipsum n'est pas simplement du texte aléatoire. Il trouve ses racines dans une oeuvre de la littérature latine classique datant de 45 av. J.-C., le rendant vieux de 2000 ans. Un professeur du Hampden-Sydney College, en Virginie, s'est intéressé à un des mots latins les plus obscurs, consectetur, extrait d'un passage du Lorem Ipsum, et en étudiant tous les usages de ce mot dans la littérature classique, découvrit la source incontestable du Lorem Ipsum. Il provient en fait des sections 1.10.32 et 1.10.33 du "De Finibus Bonorum et Malorum" (Des Suprêmes Biens et des Suprêmes Maux) de Cicéron. Cet ouvrage, très populaire pendant la Renaissance, est un traité sur la théorie de l'éthique."
+          <strong> ​ULG IS BACK ! </strong> Le championnat interquartiers de foot ne vous a pas suffit ? NOUS NON PLUS!
+           {"\n"}
+         <br></br>
+Alors on a décidé de remettre le couvert mais cette fois-ci version 2.0 avec l'organisation en exclusivité totale du <strong> premier tournoi E-sport </strong> interquartiers de la ville !
+{"\n"}
+         <br></br>
+Le tournoi <strong> ULG E-SPORT 2023 "FIFA édition" </strong> est lancé !
+{"\n"}
+         <br></br>
+Les <strong> Gargeois et les Gargeoises  dès 13 ans </strong>  auront la possibilité de briller et de se défier au travers d'une compétition intense autour du jeu <strong>FIFA</strong>.
+{"\n"}
+         <br></br>
+Certains profiteront de l'occasion afin de prendre leur revanche à la suite du championnat "streetfoot" façon "claque digitale" tandis que d'autres seront propulsés sur le devant de la scène pour démonter tout leur talent avec un ballon entre les pouces !
+{"\n"}
+         <br></br>
+Restez à l'affût car du lourd s'annonce à suivre avec en autres, les étapes du <strong>tournoi</strong>, l'annonce des <strong>lots</strong>, des tonnes <strong>d'activités</strong>, de la rediffusion <strong>Twitch</strong> alors ne vous endormez pas !
+{"\n"}
+         <br></br>
+On compte sur vous pour relayer un maximum cette information mais avec tout cet enthousiasme n'oubliez pas aussi de vous entraîner à côté car on ne vous le cache pas, la compétition sera féroce et seuls <strong>les meilleurs</strong> d'entre vous seront récompensés !
+{"\n"}
+         <br></br>
+Juste un conseil avant de se quitter : il paraît que les inscriptions sont ouvertes mais que <strong>les places sont limités</strong> alors si j'étais vous je ne tarderais pas !
          </p>
        )}
      </div>

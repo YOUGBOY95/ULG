@@ -8,7 +8,7 @@ import Act2Img from "../assets/img/Act2.jpg";
 const Act2: FC = () => {
 
   // Date de fin du compte à rebours (remplacez avec la date souhaitée)
-  const countdownEndDate = new Date('2023-09-02T00:00:00');
+  const countdownEndDate = new Date('2023-10-07T00:00:00');
 
 
   
@@ -46,10 +46,10 @@ const Act2: FC = () => {
         </a>
             
             <h2 className="absolute font-dinw05 text-white tracking-[0.35em] top-0 my-0 leading-tight text-xl">
-              ULG E-SPORT "FIFA ÉDITION" // ACTE-1
+              ULG E-SPORT 2023 "FIFA ÉDITION" // ACTE-1
             </h2>
             <h2
-              className="overflow-hidden font-tungstenBold text-white pt-[3.125rem] mt-2 mb-9 pb-[0.35rem] leading-[0.94]
+              className="overflow-hidden font-tungstenBold text-white pt-[4.5rem] mt-2 mb-9 pb-[0.35rem] leading-[0.94]
                 text-[3.4375rem] md:text-[6.25rem] lg:text-[7.5rem]
                 "
             >

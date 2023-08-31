@@ -55,8 +55,9 @@ const WeAre: FC = () => {
               className="font-dinw05 text-xl leading-tight text-[#383e3a]
                         my-4 lg:my-6"
             >
-            OUVERTURE DES INSCRIPTIONS ULG E-SPORT 2023 - 02/09/2023  
+            OUVERTURE DES INSCRIPTIONS ULG E-SPORT 2023 "FIFA ÉDITION" - 02/09/2023  
             </h2>
+            
             <p
               className="text-[#768079] font-dinw1g relative
                         pr-[10%] lg:pr-0
@@ -64,12 +65,8 @@ const WeAre: FC = () => {
                         text-lg lg:text-base
                         lg:w-[102%]"
             >
-             C'est avec une grande excitation que nous annonçons le lancement tant attendu du tout premier tournoi E-SPORT de l'ULG ! Une opportunité en or pour tous les passionnés de jeux vidéo de démontrer leurs compétences et de se mesurer les uns aux autres dans une compétition en ligne palpitante.
-
-Les inscriptions, très attendues, sont enfin ouvertes à partir d'aujourd'hui. Si vous avez toujours rêvé de briller sur la scène e-sportive, c'est le moment idéal pour vous inscrire et montrer de quoi vous êtes capable. Le lien vers les inscriptions se trouve dans la section dédiée aux <a href="#inscriptions" className="lien-inscriptions">
-   "Inscriptions événements"
-</a>
- sur notre site officiel.
+             C'est avec une grande excitation que nous vous annonçons le lancement du tout premier tournoi E-SPORT d'ULG ! Une opportunité en or pour tous les passionnés de jeux vidéo de démontrer leurs compétences et de se mesurer les uns aux autres dans une compétition palpitante. Les inscriptions, très attendues, sont enfin ouvertes à partir d'aujourd'hui. Si vous avez toujours rêvé de briller sur la scène e-sportive, c'est le moment idéal pour vous inscrire et de montrer de quoi vous êtes capable. Le lien vers les inscriptions se trouve <a href="#inscriptions" className="lien-inscriptions"> ici.</a>
+             
               <RedSquare className="bottom-0 -left-1/3 w-2 h-2" />
             </p>
             <div className="text-center mt-12 lg:relative lg:-left-1/4 xl:left-0">
