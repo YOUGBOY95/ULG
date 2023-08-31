@@ -138,8 +138,8 @@ const WeAre: FC = () => {
                 {/* Aspect Ratio Adjustment */}
                 <div className="lg:pt-[55%]"></div>
 
-                <span className="absolute top-5 -left-[3.75%] px-[3.75%] bg-[#2CB9FF] text-white font-dinw1g font-bold">
-                  INSCRIPTIONS ULG E-SPORT 2023  - 02/09/2023
+                <span className="absolute top-3 -left-[3.75%] px-[3.75%] bg-[#2CB9FF] text-white font-dinw1g font-bold">
+                  INSCRIPTIONS ULG E-SPORT 2023 
                 </span>
               </div>
               <div
