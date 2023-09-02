@@ -25,7 +25,7 @@ const SideMenuToggler: FC = () => {
     { label: "INSCRIPTIONS ÉVÉNEMENTS", target: "inscriptions" },
     { label: "NEWS", target: "news" },
     { label: "ULG ?", target: "ulg" },
-    { label: "OPTILIENCE", target: "optilience" },
+    { label: "OPTILIENCE ?", target: "optilience" },
   ];
 
   return (
