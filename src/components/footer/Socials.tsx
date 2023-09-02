@@ -43,7 +43,7 @@ const Socials: FC = () => {
       <a className="mr-4 mt-1.5"
         target="_blank"
         rel="noreferrer"
-        href="https://www.youtube.com/"
+        href="https://www.youtube.com/channel/UCh-zsemP4EfbOZxqg63iTug"
       >
         <img src={Youtube} alt="Youtube" className="w-5 h-5" />
       </a>
