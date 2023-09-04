@@ -31,10 +31,10 @@ const BackgroundVideo: FC = () => {
         style={{ color: "#fff", cursor: "pointer" }}
       >
         {isMuted ? (
-          < Icon icon="ic:baseline-music-off" className="text-[#fcfcfc]" height={24}  onClick={handleToggleMute}/>
+          < Icon icon="streamline:entertainment-volume-off-speaker-music-mute-volume-control-audio-off-mute" className="text-[#fcfcfc]" height={24}  onClick={handleToggleMute}/>
           
         ) : (
-          < Icon icon="ic:baseline-audiotrack" className="text-[#fcfcfc]" height={24}  onClick={handleToggleMute}/>
+          < Icon icon="streamline:entertainment-volume-level-high-speaker-high-volume-control-audio-music" className="text-[#fcfcfc]" height={24}  onClick={handleToggleMute}/>
         )}
       </div>
     </div>
