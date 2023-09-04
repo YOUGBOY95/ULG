@@ -97,8 +97,10 @@ const Agents: FC = () => {
       {event.author === "Qui sommes-nous ?" && (
         <p className="mt-0" style={{ whiteSpace: "pre-line" }}>
           Le sport est reconnu en tant que facteur d’insertion et d’intégration sociale et les pratiques sportives sont des supports essentiels de la vie
-sociale, c’est pourquoi nous en avons fait une priorité au sein de notre association. URBAN LEAGUE GAME constitue le <strong>pôle inclusion par
-le sport et le e-sport </strong> de l’association OPTILIENCE.
+sociale, c’est pourquoi nous en avons fait une priorité au sein de notre association. 
+{"\n"}
+<strong>URBAN LEAGUE GAME</strong> constitue le <strong>pôle inclusion par
+le sport et le e-sport </strong> de l’association <strong>OPTILIENCE</strong>.
         
         
   {"\n"}
@@ -114,8 +116,8 @@ le sport et le e-sport </strong> de l’association OPTILIENCE.
       <p className="mt-0" style={{ whiteSpace: "pre-line" }}>
         <strong>URBAN LEAGUE GARGES “Saison 1” : Championnat interquartiers de streetfoot 2022 :</strong> 
         {"\n"}
-        Un championnat interquartiers de streetfootball totalement inédit réunissant 108 jeunes (agés entre 14-17 ans) issus de différents quartiers de
-Garges, répartis en 9 équipes et qui s’affrontent sur 5 mois consécutifs. La compétition se passe sur les city stades de la ville avec un système de
+        Un championnat interquartiers de streetfootball totalement inédit réunissant <strong>108 jeunes</strong> (agés entre 14-17 ans) issus de différents quartiers de
+Garges, répartis en <strong>9 équipes</strong> et qui s’affrontent sur <strong>5 mois</strong> consécutifs. La compétition se passe sur les city stades de la ville avec un système de
 matchs à domicile et extérieur.
       </p>
       
@@ -124,8 +126,8 @@ matchs à domicile et extérieur.
       <p className="mt-0" style={{ whiteSpace: "pre-line" }}>
         <strong>Tournoi ULG E-SPORT 2023 “Fifa édition” :</strong> 
         {"\n"}
-        Le premier tournoi de E-sport interquartiers autour du jeu “Fifa 23” qui fera s’affronter 96 binômes issus des différents quartiers de la ville
-de Garges. Une phase qualificative permettra de révéler 6 binômes champions de leur quartier et une phase finale, un binôme champions
+        Le premier <strong>tournoi de E-sport</strong> interquartiers autour du jeu “FIFA 23” qui fera s’affronter <strong>96 binômes</strong> issus des différents quartiers de la ville
+de Garges. Une phase qualificative permettra de révéler 6 binômes champions de leur quartier et une phase finale, un binôme champion
 sur la ville.
 
       </p>

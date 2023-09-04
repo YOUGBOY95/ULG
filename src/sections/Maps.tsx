@@ -111,9 +111,10 @@ const Maps: FC = () => {
         
   {"\n"}
  
- OPTILIENCE est une association fondée en 2021.
+ <strong>OPTILIENCE</strong> est une association <strong>fondée en 2021</strong>.
+ {"\n"}
 Le nom de l’association correspond à la contraction de deux mots faisant référence à deux états esprits
-constituant des fondements pour réussir au sens large. il s’agit de “optimisme” et de la “résilience”.
+constituant des fondements pour réussir au sens large. il s’agit de <strong>“optimisme”</strong> et de la <strong>“résilience”</strong>.
 
 
       </p>
@@ -125,10 +126,9 @@ constituant des fondements pour réussir au sens large. il s’agit de “optimi
       <p className="mt-0" style={{ whiteSpace: "pre-line" }}>
         <strong>2. Nos valeurs :</strong> 
         {"\n"}
-        La promotion de la citoyenneté et des solidarités,
-La préservation du lien sociale
-La promotion de l’inclusion et de l’insertion professionnelle,
-La promotion de la pratique du sport pour les apports en matière de santé et softs skills.
+        La promotion de la citoyenneté, des solidarités,
+        de l'insertion professionnelle, de l'inclusion,
+        et la mise en valeur de la pratique du sport pour les apports en matière de santé et "softs skills".
 
       </p>
       
@@ -139,11 +139,11 @@ La promotion de la pratique du sport pour les apports en matière de santé et s
         {"\n"}
         Nos missions se déclinent en trois axes qui empreignent toutes nos actions et s’organisent en pôle :
         {"\n"}
-        - Pôle inclusion par le Sport et le E-Sport
+        <strong>- Pôle inclusion par le Sport et le E-Sport</strong>
         {"\n"}
-        - Pôle Coaching à travers des Masterclass
+        <strong>- Pôle Coaching à travers des Masterclass</strong>
         {"\n"}
-        - Pôle sourcing et placement de jeunes en entreprises
+        <strong>- Pôle sourcing et placement de jeunes en entreprises</strong>
       </p>
            
     </div>
