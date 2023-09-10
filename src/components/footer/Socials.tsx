@@ -3,6 +3,7 @@ import Instagram from "../../assets/img/instagram.png";
 import Youtube from "../../assets/img/youtube.png";
 import Twitch from "../../assets/img/twitch.png";
 import TikTok from "../../assets/img/tik-tok.png";
+import snapchat from "../../assets/img/snapchat.png";
 
 
 
@@ -57,7 +58,15 @@ const Socials: FC = () => {
         <img src={TikTok} alt="TikTok" className="w-4 h-4" />
       </a>
 
-      <a className="mr-0 mt-"
+      <a className="mr-3 mt-"
+        target="_blank"
+        rel="noreferrer"
+        href="https://www.snapchat.com/add/ulg.2023"
+      >
+        <img src={snapchat} alt="snapchat" className="w-4 h-4" />
+      </a>
+
+      <a className="mr-0 mt- mr-custom"
         target="_blank"
         rel="noreferrer"
         href="https://www.instagram.com/urbanleaguegame/?igshid=MzRlODBiNWFlZA%3D%3D"

@@ -3,6 +3,7 @@ import React, { FC } from "react";
 import NavLinks from "./NavLinks";
 import SideMenuToggler from "./SideMenuToggler";
 import Logo from "../../assets/img/logo.png"; // Chemin vers le logo
+import snapchat from "../../assets/img/snapchat.png";
 import Twitch from "../../assets/img/twitch.png";
 import optilience from "../../assets/img/optilience.png";
 import Youtube from "../../assets/img/youtube.png";
@@ -23,7 +24,7 @@ const Header: FC = () => (
    
     <div className="flex flex-row items-center ml-auto ">
 
-      <a className="mr-4 mt-0.5"
+      <a className="mr-3 mt-0.5"
         target="_blank"
         rel="noreferrer"
         href="https://www.twitch.tv/urbanleaguegame"
@@ -31,7 +32,7 @@ const Header: FC = () => (
         <img src={Twitch} alt="Twitch" className="w-4 h-4" />
       </a>
 
-      <a className="mr-4 mt-1.5"
+      <a className="mr-3 mt-1.5"
         target="_blank"
         rel="noreferrer"
         href="https://www.youtube.com/channel/UCh-zsemP4EfbOZxqg63iTug"
@@ -40,7 +41,7 @@ const Header: FC = () => (
       </a>
 
 
-      <a className="mr-4 mt-"
+      <a className="mr-3 mt-"
         target="_blank"
         rel="noreferrer"
         href="https://www.tiktok.com/@urbanleaguegame"
@@ -48,13 +49,23 @@ const Header: FC = () => (
         <img src={TikTok} alt="TikTok" className="w-4 h-4" />
       </a>
 
-      <a className="mr-2 mt-"
+      <a className="mr-3 mt-"
+        target="_blank"
+        rel="noreferrer"
+        href="https://www.snapchat.com/add/ulg.2023"
+      >
+        <img src={snapchat} alt="snapchat" className="w-4 h-4" />
+      </a>
+
+      <a className="mr- mt-"
         target="_blank"
         rel="noreferrer"
         href="https://www.instagram.com/urbanleaguegame/?igshid=MzRlODBiNWFlZA%3D%3D"
       >
         <img src={Instagram} alt="Instagram" className="w-4 h-4" />
       </a>
+
+      
       
       <SideMenuToggler />
     </div>
