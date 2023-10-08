@@ -8,7 +8,7 @@ import Act2Img from "../assets/img/Act2.jpg";
 const Act2: FC = () => {
 
   // Date de fin du compte à rebours (remplacez avec la date souhaitée)
-  const countdownEndDate = new Date('2023-10-07T00:00:00');
+  const countdownEndDate = new Date('2023-10-14T00:00:00');
 
 
   
