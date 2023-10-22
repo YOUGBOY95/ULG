@@ -8,7 +8,7 @@ import Act2Img from "../assets/img/Act2.jpg";
 const Act2: FC = () => {
 
   // Date de fin du compte à rebours (remplacez avec la date souhaitée)
-  const countdownEndDate = new Date('2023-10-14T00:00:00');
+  const countdownEndDate = new Date('2023-10-28T00:00:00');
 
 
   
@@ -41,8 +41,8 @@ const Act2: FC = () => {
             className="flex flex-col-reverse relative
           lg:ml-[1.875rem] lg:mt-[calc(5vw+0.625rem)] lg:mb-[5vw] lg:pb-10 lg:pt-[1.375rem]"
           > 
-          <a href="https://linktr.ee/optilience" >
-          <RiotButton white>INSCRIS-TOI !</RiotButton>
+          <a href="https://www.twitch.tv/urbanleaguegarges" >
+          <RiotButton white>Rejoins le live !</RiotButton>
         </a>
             
             <h2 className="absolute font-dinw05 text-white tracking-[0.35em] top-0 my-0 leading-tight text-xl">
