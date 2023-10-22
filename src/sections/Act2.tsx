@@ -41,7 +41,7 @@ const Act2: FC = () => {
             className="flex flex-col-reverse relative
           lg:ml-[1.875rem] lg:mt-[calc(5vw+0.625rem)] lg:mb-[5vw] lg:pb-10 lg:pt-[1.375rem]"
           > 
-          <a href="https://www.twitch.tv/urbanleaguegarges" >
+          <a href="https://www.twitch.tv/urbanleaguegame" >
           <RiotButton white>Rejoins le live !</RiotButton>
         </a>
             
